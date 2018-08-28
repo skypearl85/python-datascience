@@ -1,0 +1,26 @@
+h1 {
+    color: #1100fb;
+}
+
+body {
+    font-family: 'Poiret One', cursive;
+    background: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/Cute-Owl-Background-Free-Download-768x432.jpg");
+    background-position: left top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat
+}
+
+.box {
+    transition: 1s;
+    background-color: peru;
+    margin: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.box:hover{
+    transform: rotate(90deg);
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+}
